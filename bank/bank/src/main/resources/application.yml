@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/banking
+    username: db_user
+    password: db_password
+    driver-class-name: org.postgresql.Driver
+
+logging:
+  level:
+    root: INFO
+  file: mybankingapp.log
+
+external:
+  api:
+    url: http://api.example.com
+    key: your_api_key
